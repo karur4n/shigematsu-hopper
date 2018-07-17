@@ -2,6 +2,8 @@
 
 window.BufferLoader = BufferLoader
 
+// 出典: https://www.html5rocks.com/ja/tutorials/webaudio/intro/
+
 function BufferLoader(context, urlList, callback) {
   this.context = context;
   this.urlList = urlList;
