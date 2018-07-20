@@ -1,0 +1,11 @@
+.onpu {
+  position: absolute;
+  top: 42px;
+}
+
+.bar {
+  position: absolute;
+  top: 42px;
+  left: 20px;
+  font-size: 18px;
+}
