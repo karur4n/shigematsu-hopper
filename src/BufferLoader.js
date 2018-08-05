@@ -1,14 +1,12 @@
 'use strict'
 
-window.BufferLoader = BufferLoader
-
 // 出典: https://www.html5rocks.com/ja/tutorials/webaudio/intro/
 
-function BufferLoader(context, urlList, callback) {
+export function BufferLoader(context, urlList, callback) {
   this.context = context;
   this.urlList = urlList;
   this.onload = callback;
-  this.bufferList = new Array();
+  this.bufferList = [];
   this.loadCount = 0;
 }
 
